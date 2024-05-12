@@ -2,8 +2,8 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: 'Tahoma', sans-serif;
-  background-color: #fff; /* Ensure that the background color contrasts suitably with the text color */
-  color: #000; /* Set the main text color to black for visibility on a white background */
+  background-color: #fff; /* White background for better readability */
+  color: #000; /* Black text color for contrast */
 }
 
 .container {
@@ -14,33 +14,55 @@ body, html {
   height: 100%;
   width: 100%; /* Ensure container takes full width */
   padding: 20px;
-  margin-top: -300px;
   box-sizing: border-box;
 }
 
 h1 {
   margin: 0;
   color: #4169E1;
-  font-size: 36px;
+  font-size: 36px; /* Large font size for desktop */
   text-align: center; /* Center align the header */
 }
 
 p {
   color: #000;
-  font-size: 18px;
+  font-size: 18px; /* Standard text size */
   text-align: center;
   max-width: 80%; /* Limits width of paragraph for better readability */
-  margin: 10px auto; /* Ensures paragraph is centered horizontally */
+  margin: 10px auto; /* Centered margin with space above and below */
+  word-wrap: break-word; /* Ensures words do not overflow the container */
 }
 
 nav a {
   color: #4169E1;
   text-decoration: none;
   margin: 10px;
-  font-size: 24px;
+  font-size: 24px; /* Larger font size for links */
   text-align: center; /* Center align links */
 }
 
 nav a:hover {
-  color: #ff0;
+  color: #ff0; /* Yellow on hover for visibility */
+}
+
+/* Responsive adjustments for screens smaller than 768px */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 24px; /* Smaller font size for smaller screens */
+  }
+
+  p {
+    font-size: 16px; /* Smaller text size for better readability on small devices */
+    padding: 0 10px; /* Add padding to keep text from the edges */
+  }
+
+  nav a {
+    font-size: 20px; /* Slightly smaller font size for navigation links */
+  }
+
+  .container {
+    margin-top: 0; /* Remove negative margin on mobile */
+    padding: 10px; /* Less padding to use space more efficiently */
+    justify-content: flex-start; /* Align content to the start on mobile for better space use */
+  }
 }

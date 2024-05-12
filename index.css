@@ -1,49 +1,46 @@
-body {
-  font-family: 'Consolas', monospace;
-  background-color: #222;
-  color: #fff;
+body, html {
+  height: 100%;
   margin: 0;
-  padding: 0;
+  font-family: 'Tahoma', sans-serif;
+  background-color: #fff; /* Ensure that the background color contrasts suitably with the text color */
+  color: #000; /* Set the main text color to black for visibility on a white background */
 }
-  
-  .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #333;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    color: #0f0;
-    font-size: 36px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  p {
-    font-size: 18px;
-    line-height: 1.3; /* Adjust line-height to make sentences closer together */
-    margin-bottom: 10px; /* Reduce margin-bottom to make sentences closer together */
-  }
-  
-  p:first-child {
-    margin-top: 0;
-  }
-  
-  p:last-child {
-    margin-bottom: 0;
-  }
-  
-  /* Add some hover effects for links */
-  a {
-    color: #0f0;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  a:hover {
-    color: #ff0;
-  }
-  
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%; /* Ensure container takes full width */
+  padding: 20px;
+  margin-top: -300px;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  color: #4169E1;
+  font-size: 36px;
+  text-align: center; /* Center align the header */
+}
+
+p {
+  color: #000;
+  font-size: 18px;
+  text-align: center;
+  max-width: 80%; /* Limits width of paragraph for better readability */
+  margin: 10px auto; /* Ensures paragraph is centered horizontally */
+}
+
+nav a {
+  color: #4169E1;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 24px;
+  text-align: center; /* Center align links */
+}
+
+nav a:hover {
+  color: #ff0;
+}

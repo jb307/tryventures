@@ -24,7 +24,6 @@ nav {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
   border-radius: 8px; /* Rounded corners */
-  border: 2px solid #007ba7; /* Cerulean blue border for accent */
 }
 
 h1 {

@@ -30,6 +30,7 @@ h1 {
   font-size: 2em;
   color: #007ba7; /* Cerulean blue color for the heading */
   margin-bottom: 10px; /* Add some space below the heading */
+  background: none; /* Remove background from the heading */
 }
 
 p {

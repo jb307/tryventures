@@ -21,7 +21,7 @@ body, html {
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 600px) {
   .container {
-    padding: 10px; /* Add padding for smaller screens */
+    padding: 5px; /* Add padding for smaller screens */
     margin-top: 0; /* Adjust margin for smaller screens */
     flex-direction: column; /* Stack items vertically for smaller screens */
     align-items: center;

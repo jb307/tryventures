@@ -21,13 +21,11 @@ body, html {
 
 /* Adjustments for smaller screens */
 @media only screen and (max-width: 600px) {
-  main {
-      padding: 10px; /* Further reduce padding for smaller screens */
-  }
 
   .container {
       flex-direction: column; /* Stack items vertically for smaller screens */
       align-items: center;
+      padding: 10px; /* Further reduce padding for smaller screens */
   }
 
   nav {

@@ -24,20 +24,19 @@ body, html {
     padding: 20px; /* Add padding for smaller screens */
     margin-top: 0; /* Adjust margin for smaller screens */
     flex-direction: column; /* Stack items vertically for smaller screens */
-    align-items: center;
+    align-items: flex-start; /* Align items to the start (left) */
   }
 
   nav {
+    width: 100%; /* Make nav take the full width */
     margin-top: 10px; /* Reduce margin for smaller screens */
   }
 
   h1 {
     font-size: 1.5em; /* Adjust heading size for smaller screens */
-    align-items: center;
   }
 
   p {
     font-size: 1em; /* Adjust paragraph size for smaller screens */
   }
 }
-

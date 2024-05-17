@@ -58,7 +58,7 @@ nav a:hover {
       align-items: center;
   }
 
-  h1 {
+  nav {
       margin-top: 10px; /* Reduce margin for smaller screens */
   }
 

@@ -46,24 +46,24 @@ nav a:hover {
   color: #ff0; /* Yellow on hover for visibility */
 }
 
-/* Responsive adjustments for screens smaller than 768px */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 24px; /* Smaller font size for smaller screens */
-  }
 
-  p {
-    font-size: 16px; /* Smaller text size for better readability on small devices */
-    padding: 0 10px; /* Add padding to keep text from the edges */
-  }
-
-  nav a {
-    font-size: 20px; /* Slightly smaller font size for navigation links */
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+  main {
+      padding: 10px; /* Further reduce padding for smaller screens */
   }
 
   .container {
-    margin-top: 0; /* Remove negative margin on mobile */
-    padding: 10px; /* Less padding to use space more efficiently */
-    justify-content: flex-start; /* Align content to the start on mobile for better space use */
+      flex-direction: column; /* Stack items vertically for smaller screens */
+      align-items: center;
+  }
+
+  nav {
+      margin-top: 10px; /* Reduce margin for smaller screens */
+  }
+
+  nav ul li {
+      margin-right: 0; /* Remove margin between nav items */
+      margin-bottom: 5px; /* Add margin below nav items */
   }
 }

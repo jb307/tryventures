@@ -20,17 +20,14 @@ body, html {
 }
 
 nav {
-  background-color: #333; /* Slightly darker grey for nav */
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
-  border-radius: 8px; /* Rounded corners */
+
 }
 
 h1 {
   font-size: 2em;
   color: #007ba7; /* Cerulean blue color for the heading */
   margin-bottom: 10px; /* Add some space below the heading */
-  background: none; /* Remove background from the heading */
 }
 
 p {

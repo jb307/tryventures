@@ -58,12 +58,8 @@ nav a:hover {
       align-items: center;
   }
 
-  nav {
+  h1 {
       margin-top: 10px; /* Reduce margin for smaller screens */
   }
 
-  nav ul li {
-      margin-right: 0; /* Remove margin between nav items */
-      margin-bottom: 5px; /* Add margin below nav items */
-  }
 }

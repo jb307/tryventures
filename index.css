@@ -1,167 +1,184 @@
-/* General body styles */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Tahoma', sans-serif;
-  background-color: #2c2c2c; /* Dark grey background */
-  color: #fff; /* White text color */
+body, html { 
+  height: 100%; 
+  margin: 0; 
+  font-family: 'Tahoma', sans-serif; 
+  background-color: #2c2c2c; /* Dark grey background */ 
+  color: #fff; /* White text color */ 
 }
 
 /* Container styles */
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%; /* Ensure container takes full width */
-  padding: 20px;
-  box-sizing: border-box;
-  margin-top: -300px;
-  text-align: center; /* Center text in the container */
+.container { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100%; 
+  width: 100%; /* Ensure container takes full width */ 
+  padding: 20px; 
+  box-sizing: border-box; 
+  margin-top: -300px; 
+  text-align: center; /* Center text in the container */ 
 }
 
 /* Navigation styles */
-nav {
-  padding: 20px;
+nav { 
+  padding: 20px; 
 }
 
 /* Heading styles */
-h1 {
-  font-size: 2em;
-  color: #ffffff; /* White color for the heading */
-  margin-bottom: 10px; /* Add some space below the heading */
+h1 { 
+  font-size: 2em; 
+  color: #ffffff; /* White color for the heading */ 
+  margin-bottom: 10px; /* Add some space below the heading */ 
 }
 
 /* Paragraph styles */
-p {
-  font-size: 1.2em;
-  color: #fff; /* White text color */
-  margin: 0;
+p { 
+  font-size: 1.2em; 
+  color: #fff; /* White text color */ 
+  margin: 0; 
 }
 
 /* Coming soon section styles */
-.coming-soon {
-  position: absolute;
-  bottom: 50px;
-  left: 20px;
-  text-align: left;
+.coming-soon { 
+  position: absolute; 
+  bottom: 50px; 
+  left: 20px; 
+  text-align: left; 
 }
 
-.coming-soon h2 {
-  font-size: 1.5em;
-  margin-bottom: 5px;
-  color: #1cb41c; /* Cerulean blue color for the heading */
+.coming-soon h2 { 
+  font-size: 1.5em; 
+  margin-bottom: 5px; 
+  color: #1cb41c; /* Cerulean blue color for the heading */ 
 }
 
-.unclickable-link {
-  font-size: 1.2em;
-  color: #fff; /* White text color */
-  text-decoration: underline;
+.unclickable-link { 
+  font-size: 1.2em; 
+  color: #fff; /* White text color */ 
+  text-decoration: underline; 
 }
 
 /* Contact link styles */
-.contact-link {
-  position: absolute;
-  bottom: 45px;
-  right: 20px;
-  text-align: right;
+.contact-link { 
+  position: absolute; 
+  bottom: 70px; 
+  right: 20px; 
+  text-align: right; 
 }
 
-.contact-link a {
-  font-size: 1em;
-  color: #fff;
-  text-decoration: none;
+.contact-link a { 
+  font-size: 1em; 
+  color: #fff; 
+  text-decoration: none; 
 }
 
-.contact-link a:hover {
-  text-decoration: underline;
+.contact-link a { 
+  text-decoration: underline; 
 }
 
 /* Privacy policy link styles */
-.privacy-policy {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  text-align: right;
+.privacy-policy { 
+  position: absolute; 
+  bottom: 45px; 
+  right: 20px; 
+  text-align: right; 
 }
 
-.privacy-policy a {
-  font-size: 1em;
-  color: #fff;
-  text-decoration: none;
+.privacy-policy a { 
+  font-size: 1em; 
+  color: #fff; 
+  text-decoration: none; 
 }
 
-.privacy-policy a:hover {
-  text-decoration: underline;
+.privacy-policy a { 
+  text-decoration: underline; 
+}
+
+/* Terms and Conditions link styles */
+.terms-conditions { 
+  position: absolute; 
+  bottom: 20px; 
+  right: 20px; 
+  text-align: right; 
+}
+
+.terms-conditions a { 
+  font-size: 1em; 
+  color: #fff; 
+  text-decoration: none; 
+}
+
+.terms-conditions a { 
+  text-decoration: underline; 
 }
 
 /* Back to home link styles */
-.back-link {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  text-align: left;
+.back-link { 
+  position: absolute; 
+  bottom: 20px; 
+  left: 20px; 
+  text-align: left; 
 }
 
-.back-link a {
-  font-size: 1em;
-  color: #fff;
-  text-decoration: none;
+.back-link a { 
+  font-size: 1em; 
+  color: #fff; 
+  text-decoration: none; 
 }
 
-.back-link a:hover {
-  text-decoration: underline;
+.back-link a { 
+  text-decoration: underline; 
 }
 
 /* Responsive adjustments */
-@media only screen and (max-width: 600px) {
-  .container {
-    padding: 10px; /* Add padding for smaller screens */
-    margin-top: 0; /* Adjust margin for smaller screens */
-    text-align: left; /* Left-align text for mobile */
+@media only screen and (max-width: 600px) { 
+  .container { 
+      padding: 10px; /* Add padding for smaller screens */ 
+      margin-top: 0; /* Adjust margin for smaller screens */ 
+      text-align: left; /* Left-align text for mobile */ 
   }
 
-  nav {
-    width: 100%; /* Make nav take the full width */
-    margin-top: 10px; /* Reduce margin for smaller screens */
-    padding: 15px; /* Adjust padding for smaller screens */
+  nav { 
+      width: 100%; /* Make nav take the full width */ 
+      margin-top: 10px; /* Reduce margin for smaller screens */ 
+      padding: 15px; /* Adjust padding for smaller screens */ 
   }
 
-  h1 {
-    font-size: 1.8em; /* Adjust heading size for smaller screens */
+  h1 { 
+      font-size: 1.8em; /* Adjust heading size for smaller screens */ 
   }
 
-  p {
-    font-size: 1em; /* Adjust paragraph size for smaller screens */
+  p { 
+      font-size: 1em; /* Adjust paragraph size for smaller screens */ 
   }
 
-  .coming-soon {
-    left: 10px; /* Adjust position for smaller screens */
-    bottom: 10px;
+  .coming-soon { 
+      left: 10px; /* Adjust position for smaller screens */ 
+      bottom: 10px; 
   }
 
-  .coming-soon h2 {
-    font-size: 1.3em; /* Adjust heading size for smaller screens */
+  .coming-soon h2 { 
+      font-size: 1.3em; /* Adjust heading size for smaller screens */ 
   }
 
-  .unclickable-link {
-    font-size: 1em; /* Adjust paragraph size for smaller screens */
+  .unclickable-link { 
+      font-size: 1em; /* Adjust paragraph size for smaller screens */ 
   }
 
-  .contact-link, .privacy-policy {
-    right: 10px; /* Adjust position for smaller screens */
+  .contact-link, .privacy-policy, .terms-conditions { 
+      right: 10px; /* Adjust position for smaller screens */ 
   }
 
-  .contact-link a, .privacy-policy a {
-    font-size: 0.9em; /* Adjust font size for smaller screens */
+  .contact-link a, .privacy-policy a, .terms-conditions a { 
+      font-size: 0.9em; /* Adjust font size for smaller screens */ 
   }
 
-  .back-link {
-    left: 10px; /* Adjust position for smaller screens */
+  .back-link { 
+      left: 10px; /* Adjust position for smaller screens */ 
   }
 
-  .back-link a {
-    font-size: 0.8em; /* Adjust font size for smaller screens */
+  .back-link a { 
+      font-size: 0.8em; /* Adjust font size for smaller screens */ 
   }
 }
